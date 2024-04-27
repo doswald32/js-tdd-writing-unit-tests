@@ -2,7 +2,7 @@ import { pointsForWord } from "../utils";
 
 describe("pointsForWord", () => {
     it("calculatese the total points for a word (1 point per vowel, 2 per consonant)", () => {
-        const word = "test";
+        const word = "tEst";
 
         const points = pointsForWord(word);
 
